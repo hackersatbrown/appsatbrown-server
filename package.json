@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node bin/app.js"
+    "start": "node bin/server.js"
   },
   "dependencies": {
     "express": "3.0.5",
@@ -11,7 +11,8 @@
   },
   "devDependencies": {
     "mocha": "1.7.x",
-    "should": "0.6.x",
+    "should": "1.2.x",
+    "testify": "git://github.com/hackersatbrown/testify.git",
     "coffee-script": "1.4.x"
   },
   "engines": {
